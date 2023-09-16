@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.628" height="129.519" viewBox="0 0 164.628 129.519">
+  <defs>
+    <filter id="backward" x="0" y="0" width="164.628" height="129.519" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="backward-2" data-name="backward" transform="translate(11.5 8.632)">
+    <g transform="matrix(1, 0, 0, 1, -11.5, -8.63)" filter="url(#backward)">
+      <path id="backward-3" data-name="backward" d="M3.2,123.882l53.113,44.261a8.857,8.857,0,0,0,14.523-6.805V72.816a8.857,8.857,0,0,0-14.523-6.805L3.2,110.272A8.882,8.882,0,0,0,3.2,123.882Zm70.817,0,53.113,44.261a8.857,8.857,0,0,0,14.523-6.805V72.816a8.857,8.857,0,0,0-14.523-6.805L74.017,110.272A8.882,8.882,0,0,0,74.017,123.882Z" transform="translate(11.48 -55.32)" fill="#f9c80e" stroke="#f9c80e" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>
