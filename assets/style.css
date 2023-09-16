@@ -8,5 +8,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Audiowide", cursive;
+}
+
+footer,
+nav,
+.btn,
+.nav-link,
+.navbar-brand,
+.card {
+  background-color: #0f0f2d !important;
+  color: #f9c80e !important;
+  font-family: "Audiowide", cursive;
+}
+
+p {
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  background-image: url(../backGround.png);
+  background-position: center;
+  background-size: cover;
 }

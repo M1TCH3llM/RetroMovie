@@ -13,11 +13,15 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <!-- NAVBAR  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav
+      style="background-color: #0f0f2d !important"
+      class="navbar sticky-top navbar-expand-lg bg-body-tertiary"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -38,25 +42,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -190,9 +175,9 @@
     </div>
     <!-- Movie Card Container  -->
     <div class="Container">
-      <div class="row row-cols-2">
+      <div class="row row-cols-2 d-flex justify-content-around m-4">
         <!-- Movie Card  -->
-        <div class="card mb-3 col" style="max-width: 540px">
+        <div id="movieCard" class="card mb-3 col" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="..." class="img-fluid rounded-start" alt="..." />
