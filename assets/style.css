@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
   font-family: "Audiowide", cursive;
+  color: #f9c80e !important;
 }
 
 footer,
@@ -22,6 +23,10 @@ nav,
   font-family: "Audiowide", cursive;
 }
 
+#carouselExample {
+  margin-top: 2rem;
+}
+
 p {
   font-family: "Orbitron", sans-serif;
 }
@@ -30,4 +35,35 @@ body {
   background-image: url(../backGround.png);
   background-position: center;
   background-size: cover;
+}
+
+.card {
+  border: 3px solid #f9c80e !important ;
+  border-radius: 20px !important;
+  box-shadow: 1px 1px 10px 5px #f9c60ebd !important;
+}
+
+#movieSelect button {
+  font-size: 1.5rem;
+  font-family: "Audiowide", cursive !important;
+  border: none;
+  background-color: none !important;
+  color: #f9c80e;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+#movieSelect button:hover {
+  color: azure;
+}
+#movieSelect button: {
+  color: azure;
+}
+
+#movieSelect {
+  border: 3px solid #f9c80e;
+  background-color: #0f0f2d;
+  border-radius: 10px;
+  margin: 2rem 5rem;
+  padding-right: 1rem;
 }

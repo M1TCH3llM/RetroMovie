@@ -11,10 +11,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- NAVBAR  -->
@@ -23,7 +25,7 @@
       class="navbar sticky-top navbar-expand-lg bg-body-tertiary"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Movies</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Snacks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" aria-disabled="true">User Profile</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -166,18 +168,18 @@
       </button>
     </div>
     <!-- MOVIE FEATURE NAV  -->
-    <div class="row" style="border: 2px solid red">
-      <h3 class="col">Featured</h3>
-      <h3 class="col">New Releases</h3>
-      <h3 class="col">Genres</h3>
-      <h3 class="col">Favorites</h3>
-      <h3 class="col">Special Events</h3>
+    <div id="movieSelect" class="row d-flex">
+      <button style="background-color: #0f0f2d !important;" class="col">Featured</button style="background-color: #0f0f2d !important;">
+      <button style="background-color: #0f0f2d !important;" class="col">New Releases</button style="background-color: #0f0f2d !important;">
+      <button style="background-color: #0f0f2d !important;" class="col">Genres</button style="background-color: #0f0f2d !important;">
+      <button style="background-color: #0f0f2d !important;" class="col">Favorites</button style="background-color: #0f0f2d !important;">
+      <button style="background-color: #0f0f2d !important;" class="col">Special Events</button style="background-color: #0f0f2d !important;">
     </div>
     <!-- Movie Card Container  -->
     <div class="Container">
-      <div class="row row-cols-2 d-flex justify-content-around m-4">
+      <div class="row row-cols-lg-2 d-flex justify-content-around m-4">
         <!-- Movie Card  -->
-        <div id="movieCard" class="card mb-3 col" style="max-width: 540px">
+        <div id="movieCard" class="card mb-3 col-sm-11" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="..." class="img-fluid rounded-start" alt="..." />
@@ -200,7 +202,7 @@
           </div>
         </div>
         <!-- Movie Card  -->
-        <div class="card mb-3 col" style="max-width: 540px">
+        <div class="card mb-3 col-sm-11" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="..." class="img-fluid rounded-start" alt="..." />
@@ -223,7 +225,7 @@
           </div>
         </div>
         <!-- Movie Card  -->
-        <div class="card mb-3 col" style="max-width: 540px">
+        <div class="card mb-3 col-sm-11" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="..." class="img-fluid rounded-start" alt="..." />
@@ -246,7 +248,7 @@
           </div>
         </div>
         <!-- Movie Card  -->
-        <div class="card mb-3 col" style="max-width: 540px">
+        <div class="card mb-3 col-sm-11" style="max-width: 540px">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="..." class="img-fluid rounded-start" alt="..." />
